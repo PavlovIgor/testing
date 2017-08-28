@@ -1,0 +1,6 @@
+%li.list-group-item
+	= link_to test.name, app_page_test_path(test.page.app, test.page, test)
+	%span.pull-right
+		= link_to raw("<span style=\"color:#5cb85c\" class=\"glyphicon glyphicon-eye-open\"></span>"), app_page_test_path(test.page.app, test.page, test)
+		= link_to raw("<span style=\"color:#f0ad4e\" class=\"glyphicon glyphicon-pencil\"></span>"), edit_app_page_test_path(test.page.app, test.page, test), methos: "PUT"
+		= link_to raw("<span style=\"color:#d9534f\" class=\"glyphicon glyphicon-trash\"></span>"), app_page_test_path(test.page.app, test.page, test), method: "DELETE"

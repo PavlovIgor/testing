@@ -1,0 +1,201 @@
+# Logfile created on 2017-08-27 15:26:07 +0000 by logger.rb/56438
+I, [2017-08-27T15:26:07.117207 #1]  INFO -- : Net::HTTP::Get: /contact
+D, [2017-08-27T15:26:07.117688 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T15:26:07.118185 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T15:26:07.118643 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T15:26:07.119062 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T15:26:07.119500 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T15:26:07.119955 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T15:26:07.710111 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T15:26:07.710916 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T15:26:07.711591 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T15:26:07.712271 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T15:26:07.712853 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T15:26:07.713501 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T15:26:07.714214 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 15:26:07 GMT
+D, [2017-08-27T15:26:07.715621 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6ImNWZlwvY0Q1U1BwTWVjWW4xZDNscG1BPT0iLCJ2YWx1ZSI6IjBhaDVtS1ByTmFMSkF4aFdPRkNZaVdKcWpPQjE2a2Rld0VGcnpvejhwXC85OWNKcHhjeTlqeFo1V0dUak1pWTBTZDJUNklPUEplUmNXK0lmblRObDF5Zz09IiwibWFjIjoiMWI5MGVlMTliMzY1OGVmZjRiMGM5OGZiZjllOGVhM2I0Nzk1Yjg3MmRmYTQ5MjAwMWMwNDAwZDVkODYzYTE1MiJ9; expires=Sun, 27-Aug-2017 17:26:07 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6Ims3blJHV3RyRmIxZ04rYm5SNzBZY0E9PSIsInZhbHVlIjoiSEJRRlRHZVIzN2NcL0Vld3RNZm9IYjg5VGxTN2V4MFpxVERUOVU0RDRRd3dWN29TV0VwSGd0Q0FXbUNkS1p2aUNHQ2t5UUpxYXljSzI3cXpaZllSS1lnPT0iLCJtYWMiOiIyMzgzYjBjNjI0ZTdmMGNiZjk1YWMxYmJkZWY5M2IyOTBkOWJkYmY1MjhkMGUzYmJiNTQzZGZmYzZmYTU2M2RhIn0%3D; expires=Sun, 27-Aug-2017 17:26:07 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T15:26:07.716281 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T15:26:07.717069 #1] DEBUG -- : Read 3954 bytes (3954 total)
+D, [2017-08-27T15:26:07.717815 #1] DEBUG -- : gzip response
+D, [2017-08-27T15:26:07.747147 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6ImNWZlwvY0Q1U1BwTWVjWW4xZDNscG1BPT0iLCJ2YWx1ZSI6IjBhaDVtS1ByTmFMSkF4aFdPRkNZaVdKcWpPQjE2a2Rld0VGcnpvejhwXC85OWNKcHhjeTlqeFo1V0dUak1pWTBTZDJUNklPUEplUmNXK0lmblRObDF5Zz09IiwibWFjIjoiMWI5MGVlMTliMzY1OGVmZjRiMGM5OGZiZjllOGVhM2I0Nzk1Yjg3MmRmYTQ5MjAwMWMwNDAwZDVkODYzYTE1MiJ9
+D, [2017-08-27T15:26:07.748144 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6Ims3blJHV3RyRmIxZ04rYm5SNzBZY0E9PSIsInZhbHVlIjoiSEJRRlRHZVIzN2NcL0Vld3RNZm9IYjg5VGxTN2V4MFpxVERUOVU0RDRRd3dWN29TV0VwSGd0Q0FXbUNkS1p2aUNHQ2t5UUpxYXljSzI3cXpaZllSS1lnPT0iLCJtYWMiOiIyMzgzYjBjNjI0ZTdmMGNiZjk1YWMxYmJkZWY5M2IyOTBkOWJkYmY1MjhkMGUzYmJiNTQzZGZmYzZmYTU2M2RhIn0%3D
+I, [2017-08-27T15:27:26.959482 #1]  INFO -- : Net::HTTP::Get: /contact
+D, [2017-08-27T15:27:26.960473 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T15:27:26.962242 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T15:27:26.962850 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T15:27:26.963293 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T15:27:26.963676 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T15:27:26.963967 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T15:27:27.387000 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T15:27:27.387819 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T15:27:27.388595 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T15:27:27.389252 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T15:27:27.389872 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T15:27:27.390487 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T15:27:27.391144 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 15:27:27 GMT
+D, [2017-08-27T15:27:27.391770 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6IjVjZkM2R3U5ZlwvXC9namNTWVhCSnF1QT09IiwidmFsdWUiOiIrakZFZTZzUlpXeTRiNkxaenVHbWpYT1FhSzQzZTlwVkErQUd4QnhBN3RneVI3MlJDdmtlTnl0N2ZBNXFvaDc4S0c3cWg3ajM2c3phOUIybmV1SHFKZz09IiwibWFjIjoiZTAxNTc2ZDRmNTFlN2RmOTlhODJlZDYwZjUxYTYxNzVlNDI3MDdkMmRmNWU2NTVkNjY1OTUxMGY2ZWQxYTUyMSJ9; expires=Sun, 27-Aug-2017 17:27:27 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6Imxja09kNU05S3FjaE9zbTB6c2tKZ1E9PSIsInZhbHVlIjoiK0k4ZEkxM3IrNHJpNXU2alV1VUI1dk1Fdk9qU2lDY2RKd0xoVEQrcDNoOUQ2cWo0bTd4N0lRT0JoYkFrVDBhWXZNUGlZbkd2ZDIrb2p5MkZoeFpUS0E9PSIsIm1hYyI6IjI5NTU3YjI2ZTAxNDIxNGQ0NjE3NDA4MzA4OWZiMTQ4YzBiYTYwZmZlZDk0Yjc1OWE5MDg0ZTU5OWM0ODNjOTQifQ%3D%3D; expires=Sun, 27-Aug-2017 17:27:27 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T15:27:27.392490 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T15:27:27.393233 #1] DEBUG -- : Read 3953 bytes (3953 total)
+D, [2017-08-27T15:27:27.393939 #1] DEBUG -- : gzip response
+D, [2017-08-27T15:27:27.419277 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6IjVjZkM2R3U5ZlwvXC9namNTWVhCSnF1QT09IiwidmFsdWUiOiIrakZFZTZzUlpXeTRiNkxaenVHbWpYT1FhSzQzZTlwVkErQUd4QnhBN3RneVI3MlJDdmtlTnl0N2ZBNXFvaDc4S0c3cWg3ajM2c3phOUIybmV1SHFKZz09IiwibWFjIjoiZTAxNTc2ZDRmNTFlN2RmOTlhODJlZDYwZjUxYTYxNzVlNDI3MDdkMmRmNWU2NTVkNjY1OTUxMGY2ZWQxYTUyMSJ9
+D, [2017-08-27T15:27:27.420054 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6Imxja09kNU05S3FjaE9zbTB6c2tKZ1E9PSIsInZhbHVlIjoiK0k4ZEkxM3IrNHJpNXU2alV1VUI1dk1Fdk9qU2lDY2RKd0xoVEQrcDNoOUQ2cWo0bTd4N0lRT0JoYkFrVDBhWXZNUGlZbkd2ZDIrb2p5MkZoeFpUS0E9PSIsIm1hYyI6IjI5NTU3YjI2ZTAxNDIxNGQ0NjE3NDA4MzA4OWZiMTQ4YzBiYTYwZmZlZDk0Yjc1OWE5MDg0ZTU5OWM0ODNjOTQifQ%3D%3D
+I, [2017-08-27T15:27:59.578594 #1]  INFO -- : Net::HTTP::Get: /contact
+D, [2017-08-27T15:27:59.579603 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T15:27:59.580065 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T15:27:59.580467 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T15:27:59.580902 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T15:27:59.581393 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T15:27:59.581854 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T15:27:59.926460 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T15:27:59.927268 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T15:27:59.927928 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T15:27:59.928635 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T15:27:59.929128 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T15:27:59.929708 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T15:27:59.930120 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 15:27:59 GMT
+D, [2017-08-27T15:27:59.930639 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6IkJiYWhoNkpQM3VTZ0dXV3JkVEJGT2c9PSIsInZhbHVlIjoidTl4XC8zXC80VTRSbUI3cnJQY1ROaEttV0JubjlJU295Y0JmejhvakRkU0lHU0ZKQlMySnVCUkk4eEJBdytMcHVEUXhjSGQ1XC94QmtRY2IyejA0WklvN3c9PSIsIm1hYyI6ImE0YjMwZjZlZWQ2ZjZkMTI4MGYzNzZhMDQzODlkMTZiNmQ5MjRiZWM0MzBlY2NmZDg5ZDZhN2RmNTI5Mzk5MzAifQ%3D%3D; expires=Sun, 27-Aug-2017 17:27:59 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6ImRDT21vQ1Q0U0RmRjN6ZWlUQVJudnc9PSIsInZhbHVlIjoibjcwaGJrd1hDWVNHOU1Bc0hvNkhETDdTVm05UHFFazcrbjkydnFacUFDMWZBNWhWbEtTbzNCSVlTNnUrUVE3eGdtSFJZNGhsMndxY0tWZ2hEb0xFMlE9PSIsIm1hYyI6ImYxMGY0NWJjNjkwNjgwZmEwNTM3YjA5NTI3NmNlNjA5ODA5ZGJjMmZiYTA5NDRmODNjZGI2MmJkMGY1NWE4YTYifQ%3D%3D; expires=Sun, 27-Aug-2017 17:27:59 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T15:27:59.931146 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T15:27:59.931754 #1] DEBUG -- : Read 3958 bytes (3958 total)
+D, [2017-08-27T15:27:59.932364 #1] DEBUG -- : gzip response
+D, [2017-08-27T15:27:59.959675 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6IkJiYWhoNkpQM3VTZ0dXV3JkVEJGT2c9PSIsInZhbHVlIjoidTl4XC8zXC80VTRSbUI3cnJQY1ROaEttV0JubjlJU295Y0JmejhvakRkU0lHU0ZKQlMySnVCUkk4eEJBdytMcHVEUXhjSGQ1XC94QmtRY2IyejA0WklvN3c9PSIsIm1hYyI6ImE0YjMwZjZlZWQ2ZjZkMTI4MGYzNzZhMDQzODlkMTZiNmQ5MjRiZWM0MzBlY2NmZDg5ZDZhN2RmNTI5Mzk5MzAifQ%3D%3D
+D, [2017-08-27T15:27:59.960437 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6ImRDT21vQ1Q0U0RmRjN6ZWlUQVJudnc9PSIsInZhbHVlIjoibjcwaGJrd1hDWVNHOU1Bc0hvNkhETDdTVm05UHFFazcrbjkydnFacUFDMWZBNWhWbEtTbzNCSVlTNnUrUVE3eGdtSFJZNGhsMndxY0tWZ2hEb0xFMlE9PSIsIm1hYyI6ImYxMGY0NWJjNjkwNjgwZmEwNTM3YjA5NTI3NmNlNjA5ODA5ZGJjMmZiYTA5NDRmODNjZGI2MmJkMGY1NWE4YTYifQ%3D%3D
+I, [2017-08-27T19:45:00.682674 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:45:00.683880 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:45:00.684398 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:45:00.684890 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:45:00.685379 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:45:00.685820 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:45:00.686268 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:45:01.286702 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:45:01.287704 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:45:01.288489 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:45:01.289206 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:45:01.290139 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:45:01.291007 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:45:01.291859 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:45:01 GMT
+D, [2017-08-27T19:45:01.292646 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6InlGTW5yNUlxN0htdUttb1wvOVwvNzhsQT09IiwidmFsdWUiOiJGanN2Y0lkMXYwTG85THVWTCtCSWtNczJ2aTlsVmhtUFwvVmdMNjRtNnJsczYwdzVpamhwWEZNOVwvZSs4dk00dlJmZ1hBZzg5MTFHNmNTYlVCYzZPbVBnPT0iLCJtYWMiOiJhMGI3ZDQwODRlZDdlMjEwZmFhNTE2ZWM5YWQ0YTlmN2RkNjMwZGRkODlkM2NhNjE3MzVhMDc2YjM4ZWQ4ZGMzIn0%3D; expires=Sun, 27-Aug-2017 21:45:01 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6IlllSFdTXC9nOVpsT2JHWDJwSTBuQlJnPT0iLCJ2YWx1ZSI6Im9TUTZyMTlkYnBaUXVseVBSSUZsM0x3Wk83b0UrMVBcL0dkWkhtbnJkSjF2cHNVYmVrTkhoUnRDSHp1ZEFjTU55dXRwUU5wNmpZWGtPUmp1QnY2RmtkQT09IiwibWFjIjoiYTczMTllYzNiNTk0N2YxNGZhY2EwOTk3ZmQ0NjZhYjI4NGJlZWExZDIwNWYyNmY2NDQ2ZDMxOWY0Yjk4OWUwZCJ9; expires=Sun, 27-Aug-2017 21:45:01 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:45:01.293389 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:45:01.294361 #1] DEBUG -- : Read 5010 bytes (5010 total)
+D, [2017-08-27T19:45:01.295254 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:45:01.324437 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6InlGTW5yNUlxN0htdUttb1wvOVwvNzhsQT09IiwidmFsdWUiOiJGanN2Y0lkMXYwTG85THVWTCtCSWtNczJ2aTlsVmhtUFwvVmdMNjRtNnJsczYwdzVpamhwWEZNOVwvZSs4dk00dlJmZ1hBZzg5MTFHNmNTYlVCYzZPbVBnPT0iLCJtYWMiOiJhMGI3ZDQwODRlZDdlMjEwZmFhNTE2ZWM5YWQ0YTlmN2RkNjMwZGRkODlkM2NhNjE3MzVhMDc2YjM4ZWQ4ZGMzIn0%3D
+D, [2017-08-27T19:45:01.325362 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6IlllSFdTXC9nOVpsT2JHWDJwSTBuQlJnPT0iLCJ2YWx1ZSI6Im9TUTZyMTlkYnBaUXVseVBSSUZsM0x3Wk83b0UrMVBcL0dkWkhtbnJkSjF2cHNVYmVrTkhoUnRDSHp1ZEFjTU55dXRwUU5wNmpZWGtPUmp1QnY2RmtkQT09IiwibWFjIjoiYTczMTllYzNiNTk0N2YxNGZhY2EwOTk3ZmQ0NjZhYjI4NGJlZWExZDIwNWYyNmY2NDQ2ZDMxOWY0Yjk4OWUwZCJ9
+I, [2017-08-27T19:54:00.942643 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:54:00.944636 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:54:00.945184 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:54:00.945710 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:54:00.946176 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:54:00.946606 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:54:00.947073 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:54:01.442911 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:54:01.444171 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:54:01.445148 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:54:01.445987 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:54:01.446790 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:54:01.447499 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:54:01.448017 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:54:01 GMT
+D, [2017-08-27T19:54:01.448602 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6ImZPTFRDUkJqcENcL3J4ZHVnd3IwUktnPT0iLCJ2YWx1ZSI6IlZtdCtUQkNBVkZoeDBCQ3c1R2Q5a1BCXC9GUmk0WEloTU13RmRjK3lRQVErVHFhM1g1MkJRY0hBS2NmaFphd1k4SVZQbkoxU3VGeGhpWkFmVnFqMFlRUT09IiwibWFjIjoiMjE4OTdjOTZjMDgyZGFjZDNkNDdlNjFkYWNhZDY0Y2VlYjhkNGVkM2U2YWM1NGMwZDc0OGFjNGFjZmY5MjFmMCJ9; expires=Sun, 27-Aug-2017 21:54:01 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6IjlsQUxVa0xVazVRTTFMeW9waUJURmc9PSIsInZhbHVlIjoiMjU5eDI4djB3S0xWMSt3MHhnQlN3XC9PQ1U0YVF4VzBpbGJNZ1FCVEFROUZXYW90NlwvMjU3V2xSR3ZmYjhoYkJvSnJCMmNjVDVFVEs2cHd3SmptRVp1UT09IiwibWFjIjoiMDFhOGQ2Yzg4NzNjZTdmMjcyMjY2MmE1OTc1MWNkMzA2OGQ3Y2EwZGQ3YjQ5OWYyMDcwMzM4M2E4ODYxYjU0ZSJ9; expires=Sun, 27-Aug-2017 21:54:01 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:54:01.449118 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:54:01.449818 #1] DEBUG -- : Read 5012 bytes (5012 total)
+D, [2017-08-27T19:54:01.450595 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:54:01.484531 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6ImZPTFRDUkJqcENcL3J4ZHVnd3IwUktnPT0iLCJ2YWx1ZSI6IlZtdCtUQkNBVkZoeDBCQ3c1R2Q5a1BCXC9GUmk0WEloTU13RmRjK3lRQVErVHFhM1g1MkJRY0hBS2NmaFphd1k4SVZQbkoxU3VGeGhpWkFmVnFqMFlRUT09IiwibWFjIjoiMjE4OTdjOTZjMDgyZGFjZDNkNDdlNjFkYWNhZDY0Y2VlYjhkNGVkM2U2YWM1NGMwZDc0OGFjNGFjZmY5MjFmMCJ9
+D, [2017-08-27T19:54:01.485340 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6IjlsQUxVa0xVazVRTTFMeW9waUJURmc9PSIsInZhbHVlIjoiMjU5eDI4djB3S0xWMSt3MHhnQlN3XC9PQ1U0YVF4VzBpbGJNZ1FCVEFROUZXYW90NlwvMjU3V2xSR3ZmYjhoYkJvSnJCMmNjVDVFVEs2cHd3SmptRVp1UT09IiwibWFjIjoiMDFhOGQ2Yzg4NzNjZTdmMjcyMjY2MmE1OTc1MWNkMzA2OGQ3Y2EwZGQ3YjQ5OWYyMDcwMzM4M2E4ODYxYjU0ZSJ9
+I, [2017-08-27T19:54:55.454762 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:54:55.455836 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:54:55.456324 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:54:55.456817 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:54:55.457216 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:54:55.457714 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:54:55.458126 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:54:55.834671 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:54:55.836517 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:54:55.837145 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:54:55.837797 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:54:55.838396 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:54:55.839028 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:54:55.839664 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:54:55 GMT
+D, [2017-08-27T19:54:55.840361 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6ImY5WUdnZVQ3WVk2WmxmTGNFT0ZTK3c9PSIsInZhbHVlIjoiV0Z3RkRHZlFNN0RodFdDZTI1QjNaXC9PenE1bXpkM3VMQ3VZVkc0NmpjMUpyaDRETlRiUStLd3phQzRxK05xMG9YUXNvSE9yelA4dGJtN2FWMGJ0S3BnPT0iLCJtYWMiOiJlZTAyMWZjYWY1Mzc4NjY5Yzc0NDAwZDc0M2FlZTcyNTQwYjZlMGI5NDJjODI2NzcwOTliNTVmN2VhMTc0ODM1In0%3D; expires=Sun, 27-Aug-2017 21:54:55 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6ImhOdGhOY2JUTnQ5RHZGVjRaQU9IZ2c9PSIsInZhbHVlIjoiZzk3ZkJqWTlDQ21heVwvRjVQd201VlBGXC9Zb2VreXNaYXF4V3BvZForMXRzaVwvVjZxbXJrK3hUcmFQeUhwTGMwVERzTGdMZHZ5R0o3c1ZNZ0xwN20zSUE9PSIsIm1hYyI6ImQ2OWRlNTlmOWYyM2M2NTcyNGUyNmU4OGFlZDkxMzJkZDk3MDc1MjAyODZkNDkxNGZiNzA4N2EyOWQ3NWY2NWUifQ%3D%3D; expires=Sun, 27-Aug-2017 21:54:55 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:54:55.840959 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:54:55.841704 #1] DEBUG -- : Read 5007 bytes (5007 total)
+D, [2017-08-27T19:54:55.842485 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:54:55.870849 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6ImY5WUdnZVQ3WVk2WmxmTGNFT0ZTK3c9PSIsInZhbHVlIjoiV0Z3RkRHZlFNN0RodFdDZTI1QjNaXC9PenE1bXpkM3VMQ3VZVkc0NmpjMUpyaDRETlRiUStLd3phQzRxK05xMG9YUXNvSE9yelA4dGJtN2FWMGJ0S3BnPT0iLCJtYWMiOiJlZTAyMWZjYWY1Mzc4NjY5Yzc0NDAwZDc0M2FlZTcyNTQwYjZlMGI5NDJjODI2NzcwOTliNTVmN2VhMTc0ODM1In0%3D
+D, [2017-08-27T19:54:55.871535 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6ImhOdGhOY2JUTnQ5RHZGVjRaQU9IZ2c9PSIsInZhbHVlIjoiZzk3ZkJqWTlDQ21heVwvRjVQd201VlBGXC9Zb2VreXNaYXF4V3BvZForMXRzaVwvVjZxbXJrK3hUcmFQeUhwTGMwVERzTGdMZHZ5R0o3c1ZNZ0xwN20zSUE9PSIsIm1hYyI6ImQ2OWRlNTlmOWYyM2M2NTcyNGUyNmU4OGFlZDkxMzJkZDk3MDc1MjAyODZkNDkxNGZiNzA4N2EyOWQ3NWY2NWUifQ%3D%3D
+I, [2017-08-27T19:55:55.674352 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:55:55.683639 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:55:55.684459 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:55:55.685286 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:55:55.685974 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:55:55.686541 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:55:55.687163 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:55:56.077632 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:55:56.078551 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:55:56.079238 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:55:56.079846 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:55:56.080465 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:55:56.081128 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:55:56.082051 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:55:56 GMT
+D, [2017-08-27T19:55:56.082835 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6ImtQaU9tTUFLcTc2a1JtSzFBaTBPQ2c9PSIsInZhbHVlIjoiTXNRVVdyeUtsNVMremh0UjBYUkhPSEIrMVdiU3I1dWJJMXFnNklMTkpWbnNoZWZlaGlBVmtpQ1p2cWNOdU41QkpcL2F2clwvNVlNNTNJd05wUEFUQ3FZQT09IiwibWFjIjoiYTUzZmE0MTc1ZTNlZjBhYzIxNDMzOTM2ZGY1ZWM1MmYzMDlkYjFlOGZiOWE2NzgzMGFiNmNhMzBmNjkzN2FhOSJ9; expires=Sun, 27-Aug-2017 21:55:56 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6InU2K0lIZCs0UXBSTDFja2ZGak05T3c9PSIsInZhbHVlIjoiTFF6ODhCd3Y1T3lVMWNoRjdKMkt5WCtPTVNXQmtsQTA4ZStTYVBaeGhWOEZrWUtHXC8rY1pyc081cHNmaDRUM2o5SitqclNFWDVwZFhMaGpGZXdnK0RnPT0iLCJtYWMiOiI4YjljNzg1ZTQ1ODAxNmIwM2ZiNWNlZjQ4YmU4ZmI4ZDBmNmFhOTYyMmIzMjcwZGZlMjE1MWQ4OGEyYThjMGQ3In0%3D; expires=Sun, 27-Aug-2017 21:55:56 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:55:56.083658 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:55:56.084537 #1] DEBUG -- : Read 5012 bytes (5012 total)
+D, [2017-08-27T19:55:56.085372 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:55:56.120198 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6ImtQaU9tTUFLcTc2a1JtSzFBaTBPQ2c9PSIsInZhbHVlIjoiTXNRVVdyeUtsNVMremh0UjBYUkhPSEIrMVdiU3I1dWJJMXFnNklMTkpWbnNoZWZlaGlBVmtpQ1p2cWNOdU41QkpcL2F2clwvNVlNNTNJd05wUEFUQ3FZQT09IiwibWFjIjoiYTUzZmE0MTc1ZTNlZjBhYzIxNDMzOTM2ZGY1ZWM1MmYzMDlkYjFlOGZiOWE2NzgzMGFiNmNhMzBmNjkzN2FhOSJ9
+D, [2017-08-27T19:55:56.120954 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6InU2K0lIZCs0UXBSTDFja2ZGak05T3c9PSIsInZhbHVlIjoiTFF6ODhCd3Y1T3lVMWNoRjdKMkt5WCtPTVNXQmtsQTA4ZStTYVBaeGhWOEZrWUtHXC8rY1pyc081cHNmaDRUM2o5SitqclNFWDVwZFhMaGpGZXdnK0RnPT0iLCJtYWMiOiI4YjljNzg1ZTQ1ODAxNmIwM2ZiNWNlZjQ4YmU4ZmI4ZDBmNmFhOTYyMmIzMjcwZGZlMjE1MWQ4OGEyYThjMGQ3In0%3D
+I, [2017-08-27T19:56:18.021499 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:56:18.022568 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:56:18.023068 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:56:18.023584 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:56:18.024015 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:56:18.024448 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:56:18.024875 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:56:18.368364 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:56:18.369215 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:56:18.369937 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:56:18.370688 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:56:18.371331 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:56:18.371986 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:56:18.372641 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:56:18 GMT
+D, [2017-08-27T19:56:18.373468 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6IkJSTTlzS1g0N0NjcnVKcFhsUXNCZGc9PSIsInZhbHVlIjoiMmtzXC9KQ2RsanBTWmVSVUROVU1uQm5jMHZIanRuUG1lTDFVd21BQ2c5NEM5Q0xDSndjVGdXWXdPczVndE81WHVtd01wR0NDTkw4NnpUZTgxY3ZwYkNnPT0iLCJtYWMiOiIwNzgyZmRiY2ZhZmJiN2UzNTRmMzllZDg5MDcxNTY4YzJmMzEwMDMwZmI4NDFmNjE3MGViZmFjYjk4OWFhMDVhIn0%3D; expires=Sun, 27-Aug-2017 21:56:18 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6InBLdXpKUzlodnh5UkNFK2MyY0ticmc9PSIsInZhbHVlIjoieXQyS01ZT2FpU0JLUzNaWDV5NFVNNDVOMXJwU3g2RFwvNk15VDhJcm9uQWZncVBJdkF6djN0QVVkVDc3K3ErSG4zRlU2bUxrblM0QjQ2T2VOZlBhRjlBPT0iLCJtYWMiOiI5YjY0NWI3MDBjNmQxNWQ0YzZmNWFhOWZkM2QwNDBkNzVhZmZjMjIzYzA2MmNhNzA1YzdmNzM4MjcwNzkxZGRkIn0%3D; expires=Sun, 27-Aug-2017 21:56:18 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:56:18.374145 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:56:18.374991 #1] DEBUG -- : Read 5014 bytes (5014 total)
+D, [2017-08-27T19:56:18.375860 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:56:18.404305 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6IkJSTTlzS1g0N0NjcnVKcFhsUXNCZGc9PSIsInZhbHVlIjoiMmtzXC9KQ2RsanBTWmVSVUROVU1uQm5jMHZIanRuUG1lTDFVd21BQ2c5NEM5Q0xDSndjVGdXWXdPczVndE81WHVtd01wR0NDTkw4NnpUZTgxY3ZwYkNnPT0iLCJtYWMiOiIwNzgyZmRiY2ZhZmJiN2UzNTRmMzllZDg5MDcxNTY4YzJmMzEwMDMwZmI4NDFmNjE3MGViZmFjYjk4OWFhMDVhIn0%3D
+D, [2017-08-27T19:56:18.405199 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6InBLdXpKUzlodnh5UkNFK2MyY0ticmc9PSIsInZhbHVlIjoieXQyS01ZT2FpU0JLUzNaWDV5NFVNNDVOMXJwU3g2RFwvNk15VDhJcm9uQWZncVBJdkF6djN0QVVkVDc3K3ErSG4zRlU2bUxrblM0QjQ2T2VOZlBhRjlBPT0iLCJtYWMiOiI5YjY0NWI3MDBjNmQxNWQ0YzZmNWFhOWZkM2QwNDBkNzVhZmZjMjIzYzA2MmNhNzA1YzdmNzM4MjcwNzkxZGRkIn0%3D
+I, [2017-08-27T19:56:38.643564 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:56:38.644648 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:56:38.645129 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:56:38.645622 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:56:38.646007 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:56:38.646448 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:56:38.646838 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:56:39.088619 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:56:39.089525 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:56:39.090413 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:56:39.091177 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:56:39.091998 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:56:39.092800 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:56:39.093454 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:56:39 GMT
+D, [2017-08-27T19:56:39.094095 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6IjJcLzhNbk9JRE5IazJNQ2hBaXQrOEZ3PT0iLCJ2YWx1ZSI6Imh4ZXpBSmVUejMxcm02RzdVdEx0NldZS2did09lcTljYnQ3aENmY2J1eEppYkkzUk9cL1V2dUYrUWdmaUNMdUkzNWJEQTRCTGJRVTFLZ001MFc0cGJEZz09IiwibWFjIjoiMDJkYTgzODVmNzlhMDBmZmIzMWY2YjAyOGMwNDkwNTYwMDdlMjFlYzljZmFhNjk1MWY3NjFiYjAyNjExMTg3MiJ9; expires=Sun, 27-Aug-2017 21:56:39 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6IlZSUW50Ymk5eWEzVWVMM3cxdnlVY1E9PSIsInZhbHVlIjoiN3ZMTUtKZXBFSGx2aXBuU3l4bzdBSVVGSVwvUFwvTHh4Y0V1ZFhIXC9cL255WFVsbE5XMkNVQ0MwSm5ESytac0RsQ3JWaTNwWHMxRE1IWisrODVlTWxWcUZnPT0iLCJtYWMiOiIyNGE5ZjdjZDBmMWQ4ZmRjMjk4YTA2NTg1NWYwNjY0NWM2Y2Q2ZjZjMjk3MzliMjcxMTE1YmNjMGNjMWUwOWIzIn0%3D; expires=Sun, 27-Aug-2017 21:56:39 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:56:39.094696 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:56:39.095404 #1] DEBUG -- : Read 5011 bytes (5011 total)
+D, [2017-08-27T19:56:39.096177 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:56:39.128717 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6IjJcLzhNbk9JRE5IazJNQ2hBaXQrOEZ3PT0iLCJ2YWx1ZSI6Imh4ZXpBSmVUejMxcm02RzdVdEx0NldZS2did09lcTljYnQ3aENmY2J1eEppYkkzUk9cL1V2dUYrUWdmaUNMdUkzNWJEQTRCTGJRVTFLZ001MFc0cGJEZz09IiwibWFjIjoiMDJkYTgzODVmNzlhMDBmZmIzMWY2YjAyOGMwNDkwNTYwMDdlMjFlYzljZmFhNjk1MWY3NjFiYjAyNjExMTg3MiJ9
+D, [2017-08-27T19:56:39.129489 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6IlZSUW50Ymk5eWEzVWVMM3cxdnlVY1E9PSIsInZhbHVlIjoiN3ZMTUtKZXBFSGx2aXBuU3l4bzdBSVVGSVwvUFwvTHh4Y0V1ZFhIXC9cL255WFVsbE5XMkNVQ0MwSm5ESytac0RsQ3JWaTNwWHMxRE1IWisrODVlTWxWcUZnPT0iLCJtYWMiOiIyNGE5ZjdjZDBmMWQ4ZmRjMjk4YTA2NTg1NWYwNjY0NWM2Y2Q2ZjZjMjk3MzliMjcxMTE1YmNjMGNjMWUwOWIzIn0%3D
+I, [2017-08-27T19:57:00.308381 #1]  INFO -- : Net::HTTP::Get: /
+D, [2017-08-27T19:57:00.316591 #1] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-08-27T19:57:00.317231 #1] DEBUG -- : request-header: accept => */*
+D, [2017-08-27T19:57:00.317744 #1] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+D, [2017-08-27T19:57:00.318309 #1] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-08-27T19:57:00.318806 #1] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-08-27T19:57:00.319345 #1] DEBUG -- : request-header: host => contentgoo.com
+I, [2017-08-27T19:57:00.676880 #1]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-08-27T19:57:00.677850 #1] DEBUG -- : response-header: server => nginx/1.10.3 (Ubuntu)
+D, [2017-08-27T19:57:00.678613 #1] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2017-08-27T19:57:00.679372 #1] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-08-27T19:57:00.680522 #1] DEBUG -- : response-header: connection => keep-alive
+D, [2017-08-27T19:57:00.681267 #1] DEBUG -- : response-header: cache-control => no-cache, private
+D, [2017-08-27T19:57:00.681998 #1] DEBUG -- : response-header: date => Sun, 27 Aug 2017 19:57:00 GMT
+D, [2017-08-27T19:57:00.682728 #1] DEBUG -- : response-header: set-cookie => XSRF-TOKEN=eyJpdiI6IjdvNlBpeXR3TnpGbFlZaHozK1F2UWc9PSIsInZhbHVlIjoiRWcyaXFcL2NBbTExZHZydHpoRDN3T2JXWnZzSFhIMkU3UGNxMTg0ZXFWaW5scXMrMWcwU3cxaGRaVWlvME5tMTlWN1h1VWFZS1wvbWd0bE92OWdvYzFyQT09IiwibWFjIjoiYjM1MmIzOTg3MjFmNmUzMDgxOGNiOTUyMjhkMTgzYzYyYThmOTM4ZjlmNGRhY2RhZTkwM2RhNjkyMWU5ZTA2MiJ9; expires=Sun, 27-Aug-2017 21:57:00 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6IjI5SlwvekVvTnJFbW1zelZmXC9mTDFSZz09IiwidmFsdWUiOiJIbzJCVXowOUhFWERYZ0srb1FPdFpLYWdhbWIxOHk5M0IwaGhheklaUjEyUDdNcEZHRzdRYno3Nmw4TzY1OXBMNXFkZVpUTFF6UEJnMjlnRmJaMXo4dz09IiwibWFjIjoiZTQxNDlmMmQ2MjE5MDVlNmJkZTFmM2EwM2E1YzI3YzQ2MjdkODQ4OGE5NGEzZjQ0N2ViODVkMzU0OWMxOWU1ZiJ9; expires=Sun, 27-Aug-2017 21:57:00 GMT; Max-Age=7200; path=/; HttpOnly
+D, [2017-08-27T19:57:00.683495 #1] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-08-27T19:57:00.684380 #1] DEBUG -- : Read 5014 bytes (5014 total)
+D, [2017-08-27T19:57:00.685210 #1] DEBUG -- : gzip response
+D, [2017-08-27T19:57:00.715493 #1] DEBUG -- : saved cookie: XSRF-TOKEN=eyJpdiI6IjdvNlBpeXR3TnpGbFlZaHozK1F2UWc9PSIsInZhbHVlIjoiRWcyaXFcL2NBbTExZHZydHpoRDN3T2JXWnZzSFhIMkU3UGNxMTg0ZXFWaW5scXMrMWcwU3cxaGRaVWlvME5tMTlWN1h1VWFZS1wvbWd0bE92OWdvYzFyQT09IiwibWFjIjoiYjM1MmIzOTg3MjFmNmUzMDgxOGNiOTUyMjhkMTgzYzYyYThmOTM4ZjlmNGRhY2RhZTkwM2RhNjkyMWU5ZTA2MiJ9
+D, [2017-08-27T19:57:00.716253 #1] DEBUG -- : saved cookie: laravel_session=eyJpdiI6IjI5SlwvekVvTnJFbW1zelZmXC9mTDFSZz09IiwidmFsdWUiOiJIbzJCVXowOUhFWERYZ0srb1FPdFpLYWdhbWIxOHk5M0IwaGhheklaUjEyUDdNcEZHRzdRYno3Nmw4TzY1OXBMNXFkZVpUTFF6UEJnMjlnRmJaMXo4dz09IiwibWFjIjoiZTQxNDlmMmQ2MjE5MDVlNmJkZTFmM2EwM2E1YzI3YzQ2MjdkODQ4OGE5NGEzZjQ0N2ViODVkMzU0OWMxOWU1ZiJ9

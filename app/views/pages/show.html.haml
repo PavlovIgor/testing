@@ -1,0 +1,11 @@
+.row
+	.col-md-8.col-md-offset-2
+		.panel.panel-default
+			.panel-heading
+				= link_to raw("<span class=\"glyphicon glyphicon-chevron-left\"></span>"), app_path(@app), class: "btn btn-default"
+				#{@app.name} #{@page.name} Page Tests
+			.panel-body
+				= link_to("Add Test", new_app_page_test_path(@app, @page), class: "btn btn-default btn-block")
+
+			%ul.list-group
+				= render (@tests || "layouts/empty_list")

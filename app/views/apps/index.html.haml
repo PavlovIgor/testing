@@ -1,0 +1,8 @@
+.col-md-8.col-md-offset-2
+  .panel.panel-default
+    .panel-heading Your Apps
+    .panel-body
+      = link_to("Add App", new_app_path, class: "btn btn-default btn-block")
+
+    %ul.list-group
+      = render (@apps || "layouts/empty_list")
